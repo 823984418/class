@@ -1,12 +1,12 @@
 #include <stdio.h>
-int main(void)//int main(int argc, char *argv[])
+int main(void) //int main(int argc, char *argv[])
 {
-	int a,b;
+	int a, b;
 	printf("a=");
-	scanf("%d",&a);//int scanf(char const*,...)
+	scanf("%d", &a); //int scanf(char const*,...)
 	printf("b=");
-	scanf("%d",&b);
+	scanf("%d", &b);
 	int diff = a - b;
-	printf("a-b=%d\n",diff);
+	printf("a-b=%d\n", diff);
 	return 0;
 }

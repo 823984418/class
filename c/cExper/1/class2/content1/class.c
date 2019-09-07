@@ -1,10 +1,10 @@
 #include <stdio.h>
-int main(void)//int main(int argc, char *argv[])
+int main(void) //int main(int argc, char *argv[])
 {
-    char a,b;
-    int c;
-	scanf("%c%c%d",&a,&b,&c);
-	printf("%c,%c,%d\n",a,b,c);
+	char a, b;
+	int c;
+	scanf("%c%c%d", &a, &b, &c);
+	printf("%c,%c,%d\n", a, b, c);
 	return 0;
 }
 
